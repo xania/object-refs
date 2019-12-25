@@ -1,3 +1,7 @@
-module.exports = require('./lib/refs');
+export { 
+    default
+} from './lib/refs'
 
-module.exports.Collection = require('./lib/collection');
+export {
+    Collection
+} from './lib/collection'
