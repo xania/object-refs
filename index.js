@@ -1,7 +1,3 @@
-export { 
-    default
-} from './lib/refs'
 
-export {
-    Collection
-} from './lib/collection'
+export * from './lib/refs';
+export * from './lib/collection';
