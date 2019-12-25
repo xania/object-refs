@@ -1,3 +1,4 @@
 
-export * from './lib/refs';
-export * from './lib/collection';
+import Refs from './lib/refs';
+import Collection from './lib/collection';
+export default Object.assign(Refs, { Collection });
